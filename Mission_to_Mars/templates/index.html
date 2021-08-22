@@ -21,7 +21,22 @@
     <h3> {{ m_data.content_title }} </h3>
     <h5> {{ m_data.news_p }} </h5>
     <h2>Featured Mars Image</h2>
-    <img src = "{{ m_data.featured_image_url }}" />
+    <img src="{{ m_data.featured_image_url }}" />
+    <h2>Mars Facts</2>
+      <table>{{ m_data.mars_facts|safe }}</table>
+
+      <h3 style="padding-top:30px; text-align: center;">Mars Hemispheres</h3>
+
+      {% for hemisphere in m_data.hemisphere_image_urls %}
+      <h3>{{hemisphere.title}}</h3>
+      <img src="{{hemisphere.img_url}}" alt="...">
+
+
+
+      {% endfor %}
+
+
+
   </div>
 
 </body>
