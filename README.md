@@ -26,4 +26,4 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     * Button created
     * featured image is rendered and table are wrapped in the same row
     * list of images and titles below are wrapped in row and containers.
-   
+ Web app is responsive and fucntion was created by BS. 
