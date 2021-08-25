@@ -74,15 +74,20 @@ def scrape_hemisphere(browser):
     # Scrape page into Soup
     soup = BeautifulSoup(browser.html,'html.parser')
     img_title = soup.find_all('img', class_ = 'thumb')
-
+    list_hems = []
     for i in range(len(img_title)):
-        h_title = img_title[i]['src']
-        img_url = img_title[i]['alt']
+        h_title = img_title[i]['alt']
+        img_url = img_title[i]['src']
+        url = hems_url + img_url
 
-        hemisphere_image_urls = {"title": h_title,
-                             "img_url": img_url
+        hemisphere_image_urls = {
+                                "img_url": url,
+                                "title": h_title
+                             
                             }
-    return hemisphere_image_urls
+        list_hems.append(hemisphere_image_urls)
+
+    return list_hems
 
 
 

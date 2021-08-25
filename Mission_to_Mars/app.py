@@ -14,6 +14,7 @@ def index():
 
     # Find one record of data from the mongo database
     data = mongo.db.mars_collection.find_one()
+    print(data)
 
     # Return template and data
     return render_template("index.html",m_data=data)
@@ -24,7 +25,7 @@ def scrape():
     # Run the scrape function
 
     mars_data = scrape_mars.scrape_info()
-    
+    print(mars_data)
     mongo.db.mars_collection.update({}, mars_data, upsert=True)
     # Redirect back to home page
     # 302 is status code is like slang 
