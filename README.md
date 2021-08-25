@@ -5,7 +5,7 @@ It is a web application that scraped from various websites and all data related 
 
 ![Screenshot 2021-08-25 014200](https://user-images.githubusercontent.com/67448948/130733009-923cc8c4-9e00-4baa-851f-5ba2eecbd85d.png)
 
-Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Various objects were scraped such as Title, paragraphs, images, table, and lsit of images and its titles by their associated tags. 
+Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter. Various objects were scraped such as Title, paragraphs, images, table, and list of images and its titles by their associated tags. 
 
 1. scrape_mars.py scrapes all information needed for the web application. 
     * created connection
