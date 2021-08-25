@@ -5,7 +5,7 @@ It is a web application that scraped various websites for data related to the Mi
 
 Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Splinter and various objects were scraped such as titles, paragraph text, images, table, titles, and lsit of images and titles by their associated tags. 
 
-1.  scrape_mars.py scrapes information for the web application. 
+1.    scrape_mars.py scrapes information for the web application. 
     * created connection
     * visited site usring browser.visit()
     * created sop objects
