@@ -14,5 +14,16 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     * scvraped information by using tags and attributes
     * created scraping functions for each sited scraping and returned colllected data
     * added collected data into dictionary in scrape_info() function. 
-2. 
+2. Python flask app was built.
+    * flask app is created by Flask() obj
+    * created mongo connection by using PyMongo through local host with database
+    * set up scrape route with scrape function. 
+    * collected data from scrape_info function in scrape_mars file
+    * updated scraped data intp mongo db by using mongo CRUD
+    * set up index route and rendered data into html file by accessing data in mongo collection 
+3. Items/objects styled int he tags accordingly.
+    * Titles created
+    * Buttons created
+    * featured image is rendered and table are wrapped in the same row
+    * list of images and titles below are wrapped in row and containers.
    
