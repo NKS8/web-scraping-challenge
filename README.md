@@ -11,4 +11,5 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     1.c created sop object
     1.d scvraped information by using tags and attributes
     1.e created scraping functions for each sited scraping and returned colllected data
-    1.f added collected data into dictionary in scrape_info() function
+    1.f added collected data into dictionary in scrape_info() function. 
+   
