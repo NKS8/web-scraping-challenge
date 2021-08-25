@@ -14,7 +14,6 @@ def index():
 
     # Find one record of data from the mongo database
     data = mongo.db.mars_collection.find_one()
-    print(data)
 
     # Return template and data
     return render_template("index.html",m_data=data)
