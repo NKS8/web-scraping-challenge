@@ -1,7 +1,7 @@
 # web-scraping-challenge
 ## 12
 
-It is a web application that scraped from various websites and all data related to the Mission to Mars. All information required are displayd in a single HTML page. 
+It is a web application that scraped from various websites and all data related to the Mission to Mars. Information required is displayd in a single HTML page. 
 
 ![Screenshot 2021-08-25 014200](https://user-images.githubusercontent.com/67448948/130733009-923cc8c4-9e00-4baa-851f-5ba2eecbd85d.png)
 
