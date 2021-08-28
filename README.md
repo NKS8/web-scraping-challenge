@@ -9,7 +9,7 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
 
 1. scrape_mars.py scrapes all information needed for the web application. 
     * created connection
-    * visited site usring browser.visit()
+    * visited site using browser.visit()
     * created soup object
     * scraped information by using tags and attributes
     * created scraping functions for each site and returned colllected data relatively
