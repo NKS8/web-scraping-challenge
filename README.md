@@ -20,7 +20,7 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     * set up scrape route with scrape function. 
     * collected data from scrape_info function in scrape_mars file
     * updated scraped data into mongo db by using mongo CRUD
-    * set up index route and rendered data into html file by accessing data ws added in mongo collection 
+    * set up index route and rendered data into html file by accessing data was added in mongo collection 
 3. Items/objects styled in the tags accordingly.
     * Titles created
     * Button created
