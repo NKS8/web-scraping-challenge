@@ -1,4 +1,4 @@
-# Web-Sraping-Challenge
+# Web-Scraping-Challenge
 ## 12
 
 
