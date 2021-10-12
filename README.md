@@ -13,7 +13,7 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     * visited site using browser.visit()
     * created soup object
     * scraped information by using tags and attributes
-    * created scraping functions for each site and returned colllected data relatively
+    * created scraping functions for each site and returned collected data relatively
     * added returned-data into dictionary in scrape_info() function. 
 2. Python flask app was built.
     * flask app is created by Flask() obj
