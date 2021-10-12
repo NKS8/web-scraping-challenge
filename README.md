@@ -20,11 +20,11 @@ Initial scraping used Jupyter Notebook, BeautifulSoup, Pandas, and Requests/Spli
     * created mongo connection by using PyMongo through local host with database
     * set up scrape route with scrape function. 
     * collected data from scrape_info function in scrape_mars file
-    * updated scraped data into mongo db by using mongo CRUD
-    * set up index route and rendered data into html file by accessing data was added in mongo collection 
+    * updated scraped data into mongoDB by using mongo CRUD
+    * set up index route and rendered data into html file by accessing data was stored in mongo collection 
 3. Items/objects styled in the tags accordingly.
-    * Titles created
-    * Button created
-    * featured image is rendered and table are wrapped in the same row
-    * list of images and titles below are wrapped in row and containers.
-Web app is responsive and fucntion was created by BS. 
+    * Titles are created
+    * Button is created
+    * featured image is rendered and table is wrapped in the same row
+    * list of images and titles shown above are wrapped in row and containers.
+Web app is responsive and fucntion was created by Beautiful Soup. 
